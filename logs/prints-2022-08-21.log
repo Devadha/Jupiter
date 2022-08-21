@@ -1,0 +1,8 @@
+12:41:42.234 [main] INFO  resources.base - validated errors 
+12:42:51.983 [main] INFO  resources.base - Error message after submit 
+12:42:52.134 [main] INFO  resources.base - validated errors 
+19:57:05.748 [main] INFO  resources.base - Error message after submit 
+19:57:06.546 [main] INFO  resources.base - validated errors 
+20:03:48.134 [main] INFO  resources.base - Launched Contact Page
+20:03:49.260 [main] INFO  resources.base - Clicked submit
+20:03:49.342 [main] INFO  resources.base - validation passed after clicking submit 
