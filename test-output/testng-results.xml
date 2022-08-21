@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-21T20:03:40 AWST" name="Default suite" finished-at="2022-08-21T20:03:49 AWST" duration-ms="9521">
+  <suite started-at="2022-08-21T20:24:57 AWST" name="Default suite" finished-at="2022-08-21T20:25:07 AWST" duration-ms="10169">
     <groups>
     </groups>
-    <test started-at="2022-08-21T20:03:40 AWST" name="Default test" finished-at="2022-08-21T20:03:49 AWST" duration-ms="9521">
-      <class name="Japplication.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Japplication.HomePage@4504d271]" started-at="2022-08-21T20:03:40 AWST" name="initialize" finished-at="2022-08-21T20:03:47 AWST" duration-ms="7679" status="PASS">
+    <test started-at="2022-08-21T20:24:57 AWST" name="Default test" finished-at="2022-08-21T20:25:07 AWST" duration-ms="10169">
+      <class name="Japplication.ShopPageinfo">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Japplication.ShopPageinfo@16746061]" started-at="2022-08-21T20:24:57 AWST" name="initialize" finished-at="2022-08-21T20:25:04 AWST" duration-ms="6994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigat()[pri:0, instance:Japplication.HomePage@4504d271]" started-at="2022-08-21T20:03:47 AWST" name="basePageNavigat" finished-at="2022-08-21T20:03:49 AWST" duration-ms="1435" status="PASS">
+        <test-method signature="basePageNavigat()[pri:0, instance:Japplication.ShopPageinfo@16746061]" started-at="2022-08-21T20:25:04 AWST" name="basePageNavigat" finished-at="2022-08-21T20:25:07 AWST" duration-ms="3084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigat -->
-        <test-method signature="validateErrors(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Japplication.HomePage@4504d271]" started-at="2022-08-21T20:03:49 AWST" name="validateErrors" data-provider="getData" finished-at="2022-08-21T20:03:49 AWST" duration-ms="312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[name@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[User]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateErrors -->
-      </class> <!-- Japplication.HomePage -->
+      </class> <!-- Japplication.ShopPageinfo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

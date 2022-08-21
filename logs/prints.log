@@ -1,2 +1,4 @@
-20:03:49.602 [main] INFO  resources.base - Populated mandatory fields
-20:03:49.664 [main] INFO  resources.base - Test passed after validating errors 
+20:25:07.090 [main] INFO  resources.base - Items added to the cart
+20:25:07.293 [main] INFO  resources.base - Cart page
+20:25:07.876 [main] INFO  resources.base - Verified Subtotal for each product
+20:25:07.964 [main] INFO  resources.base - verified total =sum(sub totals)

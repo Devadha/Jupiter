@@ -40,11 +40,21 @@ public class ShopPageinfo extends base{
 	@Test
 	public void basePageNavigat() throws IOException, ParseException {
 		shopPage sp = new shopPage(driver);
-		sp.clickshop();		
+		sp.clickshop();	
+		log.info("Clicked shop");
+		System.out.println("Clicked shop");
 		sp.addItems();
+		log.info("Items added to the cart");
+		System.out.println("Items added to the cart");
 		sp.cart();
+		log.info("Cart page");
+		System.out.println("Cart page");
 		sp.subtotal();
+		log.info("Verified Subtotal for each product");
+		System.out.println("Verified Subtotal for each product");
 		sp.total();
+		log.info("verified total =sum(sub totals)");
+		System.out.println("verified total =sum(sub totals)");
 	}
 	
 }

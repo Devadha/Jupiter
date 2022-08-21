@@ -75,7 +75,7 @@ public class shopPage extends base {
 			String quants = sizequants.get(k).getAttribute("value");
 		//	System.out.println(quants);
 			Double totalquantity = Double.parseDouble(quant) * Integer.parseInt(quants);
-			System.out.println(totalquantity);
+			System.out.println("Subtotal :"+totalquantity);
 		}
 
 	}
@@ -88,6 +88,6 @@ public class shopPage extends base {
 			sum = sum.substring(1);
 			count = count + Double.parseDouble(sum);
 		}
-		System.out.println(count);
+		System.out.println("Total value :"+count);
 	}
 }

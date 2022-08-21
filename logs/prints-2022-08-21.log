@@ -1,8 +1,8 @@
-12:41:42.234 [main] INFO  resources.base - validated errors 
-12:42:51.983 [main] INFO  resources.base - Error message after submit 
-12:42:52.134 [main] INFO  resources.base - validated errors 
-19:57:05.748 [main] INFO  resources.base - Error message after submit 
-19:57:06.546 [main] INFO  resources.base - validated errors 
-20:03:48.134 [main] INFO  resources.base - Launched Contact Page
-20:03:49.260 [main] INFO  resources.base - Clicked submit
-20:03:49.342 [main] INFO  resources.base - validation passed after clicking submit 
+20:03:49.602 [main] INFO  resources.base - Populated mandatory fields
+20:03:49.664 [main] INFO  resources.base - Test passed after validating errors 
+20:22:37.411 [main] INFO  resources.base - Clicked shop
+20:22:39.860 [main] INFO  resources.base - Items added to the cart
+20:22:40.058 [main] INFO  resources.base - Cart page
+20:22:41.427 [main] INFO  resources.base - Verified Subtotal for each product
+20:22:41.580 [main] INFO  resources.base - verified total =sum(sub totals)
+20:25:05.133 [main] INFO  resources.base - Clicked shop
