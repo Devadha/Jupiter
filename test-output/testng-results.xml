@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-23T09:21:27 AWST" name="Suite" finished-at="2022-08-23T09:21:39 AWST" duration-ms="11663">
+  <suite started-at="2022-08-23T10:21:03 AWST" name="Suite" finished-at="2022-08-23T10:21:14 AWST" duration-ms="10957">
     <groups>
     </groups>
-    <test started-at="2022-08-23T09:21:27 AWST" name="Test" finished-at="2022-08-23T09:21:39 AWST" duration-ms="11663">
+    <test started-at="2022-08-23T10:21:03 AWST" name="Test" finished-at="2022-08-23T10:21:14 AWST" duration-ms="10957">
       <class name="Japplication.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T09:21:27 AWST" name="initialize" finished-at="2022-08-23T09:21:32 AWST" duration-ms="4692" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T10:21:03 AWST" name="initialize" finished-at="2022-08-23T10:21:08 AWST" duration-ms="4723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigat()[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T09:21:36 AWST" name="basePageNavigat" finished-at="2022-08-23T09:21:37 AWST" duration-ms="454" status="PASS">
+        <test-method signature="basePageNavigat()[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T10:21:12 AWST" name="basePageNavigat" finished-at="2022-08-23T10:21:12 AWST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigat -->
-        <test-method signature="validateErrors(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T09:21:37 AWST" name="validateErrors" data-provider="getData" finished-at="2022-08-23T09:21:37 AWST" duration-ms="501" status="PASS">
+        <test-method signature="validateErrors(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T10:21:12 AWST" name="validateErrors" data-provider="getData" finished-at="2022-08-23T10:21:13 AWST" duration-ms="620" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,21 +36,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateErrors -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T09:21:38 AWST" name="teardown" finished-at="2022-08-23T09:21:39 AWST" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Japplication.HomePage@2d10e0b1]" started-at="2022-08-23T10:21:14 AWST" name="teardown" finished-at="2022-08-23T10:21:14 AWST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Japplication.HomePage -->
       <class name="Japplication.ShopPageinfo">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Japplication.ShopPageinfo@60d8c0dc]" started-at="2022-08-23T09:21:32 AWST" name="initialize" finished-at="2022-08-23T09:21:36 AWST" duration-ms="4226" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Japplication.ShopPageinfo@60d8c0dc]" started-at="2022-08-23T10:21:08 AWST" name="initialize" finished-at="2022-08-23T10:21:11 AWST" duration-ms="3652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigat()[pri:0, instance:Japplication.ShopPageinfo@60d8c0dc]" started-at="2022-08-23T09:21:36 AWST" name="basePageNavigat" finished-at="2022-08-23T09:21:38 AWST" duration-ms="2011" status="PASS">
+        <test-method signature="basePageNavigat()[pri:0, instance:Japplication.ShopPageinfo@60d8c0dc]" started-at="2022-08-23T10:21:12 AWST" name="basePageNavigat" finished-at="2022-08-23T10:21:14 AWST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigat -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Japplication.ShopPageinfo@60d8c0dc]" started-at="2022-08-23T09:21:39 AWST" name="teardown" finished-at="2022-08-23T09:21:39 AWST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Japplication.ShopPageinfo@60d8c0dc]" started-at="2022-08-23T10:21:14 AWST" name="teardown" finished-at="2022-08-23T10:21:14 AWST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

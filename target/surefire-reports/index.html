@@ -2,12 +2,10 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -24,7 +22,6 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -104,12 +101,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Japplication.ShopPageinfo" class="method navigator-link" hash-for-method="basePageNavigat">basePageNavigat</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Japplication.HomePage" class="method navigator-link" hash-for-method="basePageNavigat">basePageNavigat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Japplication.HomePage" class="method navigator-link" hash-for-method="basePageNavigat">basePageNavigat</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Japplication.ShopPageinfo" class="method navigator-link" hash-for-method="basePageNavigat">basePageNavigat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -175,12 +172,12 @@
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Japplication.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Japplication.HomePage&quot;/&gt;
       &lt;class name=&quot;Japplication.ShopPageinfo&quot;/&gt;
@@ -227,20 +224,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigat')
 data.setCell(0, 2, 'Japplication.ShopPageinfo')
-data.setCell(0, 3, 2142);
+data.setCell(0, 3, 1419);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateErrors')
+data.setCell(1, 1, 'basePageNavigat')
 data.setCell(1, 2, 'Japplication.HomePage')
-data.setCell(1, 3, 620);
+data.setCell(1, 3, 458);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'basePageNavigat')
+data.setCell(2, 1, 'validateErrors')
 data.setCell(2, 2, 'Japplication.HomePage')
-data.setCell(2, 3, 490);
+data.setCell(2, 3, 310);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -276,38 +273,43 @@ return data;
               <div class="chronological-class-name">Japplication.ShopPageinfo</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">4724 ms</span>
+                <span class="method-start">5181 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">basePageNavigat</span>
-                <span class="method-start">8400 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Japplication.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basePageNavigat</span>
-                <span class="method-start">8400 ms</span>
+                <span class="method-start">8677 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Japplication.ShopPageinfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">basePageNavigat</span>
+                <span class="method-start">8677 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Japplication.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateErrors(name, name@gmail.com, User)</span>
-                <span class="method-start">8904 ms</span>
+                <span class="method-start">9140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10544 ms</span>
+                <span class="method-start">10097 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Japplication.ShopPageinfo</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10706 ms</span>
+                <span class="method-start">10184 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
