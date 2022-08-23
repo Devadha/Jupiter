@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Japplication.HomePage">
+      <class name="Japplication.ShopPageinfo">
         <methods>
-          <include name="basePageNavigat"/>
-          <include name="validateErrors"/>
           <include name="initialize"/>
+          <include name="basePageNavigat"/>
         </methods>
-      </class> <!-- Japplication.HomePage -->
+      </class> <!-- Japplication.ShopPageinfo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

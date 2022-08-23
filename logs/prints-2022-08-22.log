@@ -1,0 +1,8 @@
+20:25:07.090 [main] INFO  resources.base - Items added to the cart
+20:25:07.293 [main] INFO  resources.base - Cart page
+20:25:07.876 [main] INFO  resources.base - Verified Subtotal for each product
+20:25:07.964 [main] INFO  resources.base - verified total =sum(sub totals)
+15:08:09.272 [main] INFO  resources.base - Launched Contact Page
+15:08:10.157 [main] INFO  resources.base - Clicked submit
+15:08:10.196 [main] INFO  resources.base - validation passed after clicking submit 
+15:08:10.467 [main] INFO  resources.base - Populated mandatory fields

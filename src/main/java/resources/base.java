@@ -1,6 +1,5 @@
 package resources;
-import org.apache.poi.hssf.usermodel.HSSFCell;
-import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Row;
@@ -10,12 +9,15 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -74,7 +76,16 @@ public static JSONArray ReadVariant() throws IOException, ParseException
 		
 			
 	}  	
-	   
+public String getScreenShotPath(String testCaseName,WebDriver driver) throws IOException
+{
+	TakesScreenshot ts=(TakesScreenshot) driver;
+	File source =ts.getScreenshotAs(OutputType.FILE);
+	String destinationFile = System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
+	FileUtils.copyFile(source,new File(destinationFile));
+	return destinationFile;
+
+
+}
 
 
 }
