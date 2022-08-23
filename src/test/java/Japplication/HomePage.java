@@ -68,4 +68,8 @@ public class HomePage extends base {
 		data[0][2] = "User";
 		return data;
 	}
+	@AfterTest
+	public void teardown() {
+		driver.quit();
+	}
 }

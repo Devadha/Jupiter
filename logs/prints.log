@@ -1,2 +1,5 @@
-09:15:39.874 [main] INFO  resources.base - Populated mandatory fields
-09:15:39.921 [main] INFO  resources.base - Test passed after validating errors 
+09:21:37.889 [TestNG-test=Test-1] INFO  resources.base - Test passed after validating errors 
+09:21:38.349 [TestNG-test=Test-2] INFO  resources.base - Items added to the cart
+09:21:38.446 [TestNG-test=Test-2] INFO  resources.base - Cart page
+09:21:38.857 [TestNG-test=Test-2] INFO  resources.base - Verified Subtotal for each product
+09:21:38.934 [TestNG-test=Test-2] INFO  resources.base - verified total =sum(sub totals)

@@ -1,7 +1,7 @@
-09:12:35.355 [TestNG-test=Test-2] INFO  resources.base - Verified Subtotal for each product
-09:12:35.526 [TestNG-test=Test-2] INFO  resources.base - verified total =sum(sub totals)
-09:12:35.599 [TestNG-test=Test-1] INFO  resources.base - Populated mandatory fields
-09:12:35.658 [TestNG-test=Test-1] INFO  resources.base - Test passed after validating errors 
-09:15:39.065 [main] INFO  resources.base - Launched Contact Page
-09:15:39.431 [main] INFO  resources.base - Clicked submit
-09:15:39.500 [main] INFO  resources.base - validation passed after clicking submit 
+09:15:39.874 [main] INFO  resources.base - Populated mandatory fields
+09:15:39.921 [main] INFO  resources.base - Test passed after validating errors 
+09:21:37.008 [TestNG-test=Test-2] INFO  resources.base - Clicked shop
+09:21:37.016 [TestNG-test=Test-1] INFO  resources.base - Launched Contact Page
+09:21:37.317 [TestNG-test=Test-1] INFO  resources.base - Clicked submit
+09:21:37.377 [TestNG-test=Test-1] INFO  resources.base - validation passed after clicking submit 
+09:21:37.805 [TestNG-test=Test-1] INFO  resources.base - Populated mandatory fields

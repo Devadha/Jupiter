@@ -19,6 +19,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -55,6 +56,10 @@ public class ShopPageinfo extends base{
 		sp.total();
 		log.info("verified total =sum(sub totals)");
 		System.out.println("verified total =sum(sub totals)");
+	}
+	@AfterTest
+	public void teardown() {
+		driver.quit();
 	}
 	
 }
